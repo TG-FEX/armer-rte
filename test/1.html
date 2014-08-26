@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>test</title>
+        <link rel="stylesheet" href="1.css"/>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <textarea></textarea>
+    </body>
+    <script src="../bower_components/armerjs/dist/jqarmer.js"></script>
+    <script>
+        require('../src/main', function(rte){
+            window.$r = $((new rte('textarea')).iframeDoc);
+        })
+    </script>
+</html>

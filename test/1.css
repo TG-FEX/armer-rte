@@ -1,0 +1,357 @@
+@charset "GBK";
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, dialog, details, em, fieldset, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, main, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section {
+  display: block; }
+
+datalist {
+  display: none; }
+
+audio, canvas, video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+/* 强制expression渲染 */
+html, body {
+  background-image: url(about:blank);
+  background-attachment: fixed; }
+
+v\:* {
+  behavior: url(#default#VML); }
+
+html {
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+strong {
+  font-weight: 900; }
+
+em {
+  font-weight: 900;
+  font-style: italic; }
+
+mark {
+  background-color: #ff0; }
+
+/* IE7按钮的黑边
+input[type=submit],input[type=reset],input[type=button], button{ *filter:chroma(color=#000000);}
+button{ _filter:chroma(color=#000000);}
+*/
+ol, ul, menu {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+th, td {
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box; }
+
+th {
+  text-align: left; }
+
+audio:not([controls]) {
+  display: none; }
+
+a {
+  cursor: pointer; }
+
+a:focus {
+  outline: thin dotted; }
+
+a:hover, a:active {
+  outline: none 0; }
+
+img {
+  -ms-interpolation-mode: bicubic;
+  vertical-align: top; }
+
+address {
+  font-style: normal; }
+
+caption {
+  text-align: left; }
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+em {
+  font-style: normal; }
+
+/* 统一浏览器表单对齐方式 */
+button, input, select {
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle; }
+
+input, select {
+  font-family: inherit; }
+
+textarea, button, input, select {
+  font-size: 100%; }
+  textarea:focus, button:focus, input:focus, select:focus {
+    outline: none; }
+
+button, input {
+  line-height: normal;
+  *overflow: visible; }
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button; }
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box; }
+
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+textarea {
+  margin: 0;
+  overflow: auto;
+  /*移除IE6-9纵向滚动条*/
+  vertical-align: top;
+  /* 统一多行文本对齐方式 */
+  resize: none;
+  font-family: inherit;
+  _font-family: \5b8b\4f53;
+  /* IE6比较脑抽 */
+  font-size: inherit;
+  /* 火狐貌似不继承font-size */ }
+
+:-moz-placeholder {
+  color: #999; }
+
+::-moz-placeholder {
+  color: #999; }
+
+::-webkit-input-placeholder {
+  color: #999; }
+
+.placeholder {
+  color: #999; }
+
+f-placeholder-text {
+  color: #999;
+  cursor: text;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  vertical-align: middle; }
+
+button {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  vertical-align: baseline;
+  *vertical-align: middle;
+  cursor: pointer; }
+
+button {
+  cursor: pointer;
+  -moz-user-select: none;
+  -webkit-user-select: none; }
+
+small {
+  font-size: 85%; }
+
+progress {
+  border: 1px solid #0064B4;
+  background-color: #e6e6e6;
+  color: #0064B4;
+  /*IE10*/ }
+
+*[hidden] {
+  display: none; }
+
+i {
+  font-style: italic; }
+
+progress::-moz-progress-bar {
+  background: #0064B4; }
+
+progress::-webkit-progress-bar {
+  background: #e6e6e6; }
+
+progress::-webkit-progress-value {
+  background: #0064B4; }
+
+h6 {
+  font-weight: normal; }
+
+.clearfix, .cf {
+  zoom: 1; }
+  .clearfix:before, .clearfix:after, .cf:before, .cf:after {
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden; }
+  .clearfix:after, .cf:after {
+    clear: both; }
+
+.cl, .clr {
+  clear: both; }
+
+.clr {
+  height: 0;
+  font-size: 0;
+  line-height: 0; }
+
+.fl, .fLeft {
+  float: left; }
+
+.fr, .fRight {
+  float: right; }
+
+.tc {
+  text-align: center; }
+
+.tl {
+  text-align: left; }
+
+.tr {
+  text-align: right; }
+
+.tj {
+  text-align: justify;
+  /*ie6-8*/
+  text-justify: distribute-all-lines;
+  /* ie9*/
+  text-align-last: justify;
+  /*ff*/
+  -moz-text-align-last: justify;
+  /*chrome 20+*/
+  -webkit-text-align-last: justify; }
+  .tj:after {
+    content: ".";
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    height: 0; }
+
+.vt {
+  vertical-align: top; }
+
+.vm {
+  vertical-align: middle; }
+
+.vb {
+  vertical-align: text-bottom; }
+
+.hide {
+  display: none; }
+
+.of-h {
+  overflow: hidden; }
+
+.d-ib {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+.td-ul {
+  text-decoration: underline; }
+
+.w960, .layout960 {
+  width: 960px;
+  margin: 0 auto;
+  text-align: left; }
+
+.w970, .layout970 {
+  width: 970px;
+  margin: 0 auto;
+  text-align: left; }
+
+.ml-10 {
+  margin-left: 10px; }
+
+.mr-10 {
+  margin-right: 10px; }
+
+.mt-10 {
+  margin-top: 10px; }
+
+.mb-10 {
+  margin-bottom: 10px; }
+
+.c-369 {
+  color: #369; }
+
+.c-f60 {
+  color: #f60; }
+
+.c-333 {
+  color: #333; }
+
+.c-666 {
+  color: #666; }
+
+.c-555 {
+  color: #555; }
+
+.c-888 {
+  color: #888; }
+
+.c-630 {
+  color: #630; }
+
+.c-900 {
+  color: #900; }
+
+.c-f00 {
+  color: #f00; }
+
+.cOrg {
+  color: #f60; }
+
+.f12 {
+  font-size: 12px; }
+
+.f14 {
+  font-size: 14px; }
+
+.f16 {
+  font-size: 16px; }
+
+.fw-b {
+  font-weight: bold; }
+
+menu {
+  font-size: 14px; }
+  menu a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000; }

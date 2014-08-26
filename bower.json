@@ -1,0 +1,33 @@
+{
+    "name": "tgeditor",
+    "version": "0.0.1",
+    "main": [
+        "dist/tgeditor.js"
+    ],
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "build",
+        "speed",
+        "test",
+        "*.md",
+        "AUTHORS.txt",
+        "Gruntfile.js",
+        "package.json"
+    ],
+    "devDependencies": {
+        "armerjs": "*",
+        "webuploader_fex": "*",
+        "decorator": "*"
+    },
+    "dependencies": {
+        "webuploader_fex": "*",
+        "armerjs": "*"
+    },
+    "keywords": [
+        "tg",
+        "editer",
+        "javascript",
+        "library"
+    ]
+}
